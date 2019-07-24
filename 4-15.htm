@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>정보</title>
+    </head>
+    <body>
+        <form action="table.php" method="post">
+            <table border="1">
+                <tr>
+                    <td>사번</td>
+                    <td><input type="text"></td>
+                    <td>이름</td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td>나이</td>
+                    <td><input type="text"></td>
+                    <td>성별</td>
+                    <td>
+                        <input type="radio" name="gen" value="man">남
+                        <input type="radio" name="gen" value="woman">여자
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>최종학력</td>
+                    <td colspan="3"><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td>취미</td>
+                    <td colspan="3">
+                        <input type="checkbox" value="sports">Sports
+                        <input type="checkbox" value="books">Books
+                        <input type="checkbox" value="dance">Dance
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>자기소개</td>
+                    <td colspan="3"><input type="text"></td>
+                </tr>
+            </table>
+            <input type="submit" value="쿼리 전송">
+            <input type="reset" value="원래대로">
+        </form>
+    </body>
+</html>

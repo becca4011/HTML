@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>프로젝트 정보</title>
+        <style>
+            ul li {list-style-type:none;}
+        </style>
+    </head>
+    <body>
+        <form action="project.php" method="post">
+            <fieldset>
+                <legend>프로젝트 정보</legend>
+                <ul>
+                    <li>
+                        <label class="reg" for="name"><b>이름</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="text" id="name">
+                    </li><br>
+
+                    <li>
+                        <label class="reg" for="imp"><b>중요도</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="range" id="imp">
+                    </li><br>
+
+                    <li>
+                        <label class="reg" for="time"><b>예상 시간</b></label>
+                        <input type="text" id="time">
+                    </li><br>
+
+                    <li>
+                        <label class="reg" for="date"><b>시작 날짜</b></label>
+                        <input type="text" id="date">
+                    </li><br>
+
+                    <li>
+                        <label class="reg" for="mail"><b>이메일</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="email" id="mail">
+                    </li><br>
+
+                    <li>
+                        <label class="reg" for="url"><b>URL</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="url" id="url">
+                    </li><br>
+
+                    <li>
+                        <label class="reg" for="search"><b>검색</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="search" id="search">
+                    </li><br>
+
+                    <li>
+                        <input type="submit" value="전송">
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </body>
+</html>
